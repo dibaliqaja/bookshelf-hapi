@@ -1,0 +1,34 @@
+{
+  "name": "bookshelf-hapi",
+  "version": "1.0.0",
+  "description": "This bookshelf backend build with Hapi Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibaliqaja/bookshelf-hapi.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "hapi"
+  ],
+  "author": "Muhammad Iqbal (dibaliqaja)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dibaliqaja/bookshelf-hapi/issues"
+  },
+  "homepage": "https://github.com/dibaliqaja/bookshelf-hapi#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  }
+}
